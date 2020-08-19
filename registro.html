@@ -1,0 +1,60 @@
+<html>
+<style>
+
+table 
+{
+border: 2px solid #353A46;
+background-color: #3ABAF1;
+}
+
+input[type=text], input[type=password]
+{
+width: 100%;
+padding: 8px 20px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+}
+
+img
+{
+width: 100px;
+height: 100px;
+}
+
+label
+{
+font-size: 14px;
+font-weight: bold;
+font-family: arial;
+}
+
+input[type=submit]
+{
+background-color: #1C94C8;
+color:white;
+padding: 8px 10px;
+margin: 8px 0px;
+border: solid;
+cursor: pointer;
+width: 40%;
+}
+</style>
+<form method="post" action="registro.php">
+<table>
+
+<tr><td colspan="2" style="background-color:#33A8DB; padding-bottom:5px; padding-top:5px;"><label>Registro</label></td></tr>
+<tr><td> <align="center" rowspan="5"><img src="images/bbva.png"/></td><td><label>Nombre Real</label></td></tr>
+<tr><td><input type="text" name="realname"/></td></tr>
+<td><label>Username</label></td></tr>
+<tr><td><input type="text" name="username"/></td></tr>
+<td><label>Correo Electrónico</label></td></tr>
+<tr><td><input type="text" name="mail"/></td></tr>
+<tr><td><label>Password</label></td></tr>
+<tr><td><input type="password" name="password" /> </td></tr>
+<td><label>Repeat Password</label></td></tr>
+<tr><td><input type="text" name="rpassword"/></td></tr>
+<tr><td><input type="submit" value="Registrarme" /> </td></tr>
+
+</table>
+</form>
+</html> 

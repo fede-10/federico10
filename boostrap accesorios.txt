@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+
+BARRA DE NAVEGACIÓN + HOME + ETC
+
+
+<a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Hazte Miembro</a>
+          <a class="nav-link" href="#">Quienes somos</a>
+          <a class="nav-link" href="#">Nuestros Servicios</a>
+          <a class="nav-link" href="#">Préstamos</a>
+          <a class="nav-link" href="#">jubilaciones</a>
+          <a class="nav-link" href="#">Contacto</a>
+
+
+
+.cabecera{
+    width: 100%;
+    height: 60px;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;  
+}
+.menu{
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+
+
+.banner{
+    height: 20px;
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background-image: url(images/fondoazul.jpg);
+    background-color: rgba(0,0,0,.2);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.banner h1{
+color: white;
+}
+.banner p{
+    color: white;
+}
+
+

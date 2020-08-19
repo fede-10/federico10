@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+font-family:'Titillium Web', sans-serif;font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+}
+
+p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+.header{
+
+}
+
+.jubilacion{
+    padding: 200px;
+    border-top: 32px solid blue;
+}
+
+
+#footer{
+    padding: 0px;
+    font-size:15px;
+    margin-top: 20px;
+    text-align: center;
+    background: #333333;
+    height: 170px;
+    line-height: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+}
